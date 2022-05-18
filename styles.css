@@ -1,9 +1,87 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #202020;
+  color: white;
+}
+
+main {
+  border: 2px solid black;
+  width: 27rem;
+  margin: 15rem auto;
+  background-color: #4c4c4c;
+}
+
+h1 {
+  background-color: black;
+}
+
+.top-section {
+  margin: 1rem 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.side-article {
+  background-color: white;
+  color: black;
+  padding: 0 0.5rem;
+  line-height: 1.5rem;
+}
+
+.topUl {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.topUl li {
+  list-style: none;
+}
+
+.sideUl li {
+  list-style: none;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+}
+
+.box p {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.main-section {
+  display: flex;
+  /* gap: 1rem; */
+}
+
+.main-article {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 350px;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.main-article div p:nth-of-type(1) {
+  color: rgb(234, 226, 226);
+  margin-top: 1.7rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.main-article div p:nth-of-type(2) {
+  color: rgb(199, 197, 197);
+  margin-top: 1.1rem;
+  font-size: 0.6rem;
+  text-align: center;
+  background-color: rgb(60, 61, 61);
+  padding: 0.2rem 0;
 }
